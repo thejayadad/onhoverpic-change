@@ -1,0 +1,22 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: cursive;
+}
+
+
+div {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-image: url("pic.png");
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
